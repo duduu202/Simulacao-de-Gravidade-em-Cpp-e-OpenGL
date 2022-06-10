@@ -1,0 +1,139 @@
+﻿  DetectarColisao.cpp
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+  Main.cpp
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(39,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(40,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(51,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(52,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(60,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(61,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(158,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(179,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(236,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,37): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,29): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(245,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(246,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(255,31): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,33): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,25): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(269,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,37): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,29): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(278,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(279,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(288,31): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,33): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,25): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': redefinição de macro
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\include\GLFW\glfw3.h(123): message : consulte a definição anterior de 'APIENTRY'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(37,16): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(38,16): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(51,22): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(52,22): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(152,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(153,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(53,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(54,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(55,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(56,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(57,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(58,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(59,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(60,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(61,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(62,16): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(124,34): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(524,32): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(526,23): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(531,28): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(533,22): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(537,31): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(539,22): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(543,29): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(545,22): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(555,21): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(563,21): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(614,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(615,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(721,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(722,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(731,29): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(786,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(786,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(786,15): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(798,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(798,18): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(798,15): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(845,55): warning C4244: 'argumento': conversão de 'long double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(845,40): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(845,25): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(942,40): warning C4305: 'argumento': truncamento de 'double' para 'GLclampf'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(121,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(824): message : consulte a referência à instanciação 'void Mouse::mousePegar<5>(Body (&)[5],GLFWwindow *,bool)' do modelo que está sendo compilada
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(122,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(406,1): warning C4056: estouro em aritmética de constante de ponto flutuante
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(836): message : consulte a referência à instanciação 'void Shader::SG1080<5,5>(Luz (&)[5],Parede (&)[5])' do modelo que está sendo compilada
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(408,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(409,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(410,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(411,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(417,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(418,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(419,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(420,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(483,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Main.cpp(839): message : consulte a referência à instanciação 'void Shader::LuzSomente360<5>(Luz (&)[5])' do modelo que está sendo compilada
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(484,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(485,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(486,23): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  Mouse.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': redefinição de macro
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\include\GLFW\glfw3.h(123): message : consulte a definição anterior de 'APIENTRY'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(37,16): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(38,16): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(51,22): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(52,22): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(152,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(153,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+  Shader2D.cpp
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(39,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(40,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(51,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(52,37): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(60,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(61,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(158,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(179,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(236,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,37): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,29): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(241,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(245,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(246,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(255,31): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,33): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(259,25): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(269,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,37): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,29): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(274,21): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(278,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(279,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(288,31): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,41): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,33): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(292,25): warning C4244: 'argumento': conversão de 'double' para 'GLfloat', possível perda de dados
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 60 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  PrimeiroJogo.vcxproj -> C:\Users\Eduardo\OneDrive - Fatec Centro Paula Souza\Fatec\C++\Backups\repos\PrimeiroJogo\x64\Release\PrimeiroJogo.exe

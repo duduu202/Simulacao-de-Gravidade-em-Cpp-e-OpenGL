@@ -1,0 +1,9 @@
+﻿Main.obj : error LNK2019: símbolo externo não resolvido, _glfwInit, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwTerminate, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwCreateWindow, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwWindowShouldClose, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwPollEvents, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwMakeContextCurrent, referenciado na função _main
+Main.obj : error LNK2019: símbolo externo não resolvido, _glfwSwapBuffers, referenciado na função _main
+C:\Users\win\source\repos\PrimeiroJogo\PrimeiroJogo\lib-vc2019\glfw3.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Users\win\source\repos\PrimeiroJogo\Debug\PrimeiroJogo.exe : fatal error LNK1120: 7 externo não resolvidos

@@ -1,0 +1,472 @@
+#include <iostream>
+#include <GLFW/glfw3.h>
+#include <GLFW/glfw3native.h>
+#include <Windows.h>
+#include "Mechanics.cpp"
+
+//É assim que se cria um objeto no c++:
+seguir seg;
+
+//posição inicial
+double posi = 0.5;
+
+double teste = 0.1;
+
+//posição do player
+double x = 0.0;
+double y = 0.0;
+
+//Posição do quadrado
+double dQx = 0;
+double dQy = 0;
+
+//Velodidade do quadrado
+double dQvx = 0;
+double dQvy = 0;
+
+//Um boolean para evitar que um if aconteça mais de uma vez
+bool vReset = true;
+
+void move() {
+
+    /*
+    * O "conio.h" usando o "_getch()" é péssimo para jogos,
+    * pois ele para o looping inteiro esperando um input.
+    *
+    * Como solução usamos o GetAsyncKeyState(), da biblioteca "Windows.h",
+    * esse metodo não precisa parar o looping para pegar um input
+    */
+
+    if (GetAsyncKeyState((unsigned short)'W')) {
+        y += 0.01;
+
+        glTranslatef(0, -0.01, 0);
+        //teste = teste + 0.1;
+        //std::cout << "W\n";
+    }
+
+    if (GetAsyncKeyState((unsigned short)'A')) {
+        x -= 0.01;
+
+        glTranslatef(0.01, 0, 0);
+        //teste = teste + 0.1;
+        //std::cout << "A\n";
+    }
+    if (GetAsyncKeyState((unsigned short)'S')) {
+        y -= 0.01;
+
+        glTranslatef(0, 0.01, 0);
+        //teste = teste - 0.1;
+        //std::cout << "S\n";
+    }
+    if (GetAsyncKeyState((unsigned short)'D')) {
+        x += 0.01;
+        glTranslatef(-0.01, 0, 0);
+
+        //teste = teste - 0.1;
+        //std::cout << "D\n";
+    }
+    if (GetAsyncKeyState((unsigned short)'R')) {
+        //Salvar posição da camera
+        glPopMatrix();
+    }
+    if (GetAsyncKeyState((unsigned short)'T')) {
+        //Restaurar posição salva da camera
+        glPushMatrix();
+    }
+    if (GetAsyncKeyState((unsigned short)'V')) {
+        //Zerar velocidade do quadrado
+        dQvx = 0;
+        dQvy = 0;
+    }
+    if (GetAsyncKeyState((unsigned short)'B') && (vReset)) {
+        //inverter velocidade do quadrado
+        dQvx = -dQvx;
+        dQvy = -dQvy;
+
+        vReset = false;
+    }
+    if (GetAsyncKeyState((unsigned short)'N')) {
+        vReset = true;
+    }
+
+
+}
+/////////////////////////////////////////////////////
+//GRAVIDADE no player!
+
+
+void dQuadrado(float quadrTam) {
+    glColor3f(1.0f, 0.5f, 0.0f);
+    //std::cout << x << " " << y << "x e y\n";
+
+
+    //glTranslatef(x, y, 0.0f);
+
+
+    glBegin(GL_POLYGON);
+    /*
+    glVertex2d(-quadrTam + (posi), -quadrTam + (posi));
+    glVertex2d(quadrTam + (posi), -quadrTam + (posi));
+    glVertex2d(quadrTam + (posi), quadrTam + (posi));
+    glVertex2d(-quadrTam + (posi), quadrTam + (posi));
+    */
+
+
+    //dQy = seg.seguirPY(dQy, y);
+    //dQx = seg.seguirPX(dQx, x);
+
+
+    
+
+    glVertex2d(-quadrTam + dQx, -quadrTam + dQy);
+    glVertex2d(quadrTam + dQx, -quadrTam + dQy);
+    glVertex2d(quadrTam + dQx, quadrTam + dQy);
+    glVertex2d(-quadrTam + dQx, quadrTam + dQy);
+    glEnd();
+
+}
+
+void player(float quadrTam) {
+    glColor3f(1.0f, 0.0f, 0.0f);
+    //std::cout << x << " " << y << "x e y\n";
+    
+
+    //glTranslatef(x, y, 0.0f);
+
+    //glRotatef(180.0f, 0.0f, 0.0f, 1.0f);
+    glBegin(GL_POLYGON);
+    
+    glVertex2d(-quadrTam + x, -quadrTam + y);
+    glVertex2d(quadrTam + x, -quadrTam + y);
+    glVertex2d(quadrTam + x, quadrTam + y);
+    glVertex2d(-quadrTam + x, quadrTam + y);
+    //glRotatef(-180.0f, 0.0f, 0.0f, 1.0f);
+
+    glEnd();
+    glFlush();
+
+}
+
+GLfloat polVer[] = {
+    20, 100, 0,
+    100, 300, 0,
+    500, 50, 0,
+    320, 10, 0,
+    40, 40, 0
+};
+
+void formasGeo() {
+
+    //glRotatef(-80.0f, 0.0f, 0.0f, 1.0f);
+    /*
+    int p1[] = { 200,100 };
+    int p2[] = { 300,100 };
+    int p3[] = { 550,300 };
+    int p4[] = { 300,480 };
+    int p5[] = { 200,480 };
+    int p6[] = { 50, 300 };
+    glBegin(GL_TRIANGLE_FAN);
+    glColor3f(1.0, 1.0, 1.0);
+    glVertex2iv(p1);
+    glVertex2iv(p2);
+    glVertex2iv(p6);
+    glVertex2iv(p3);
+    glVertex2iv(p5);
+    glVertex2iv(p4);
+
+    */
+ 
+    
+
+    
+    glColor3f(0.0, 0.0, 1.0);
+    glBegin(GL_POLYGON);
+    glVertex3f(-0.5 + x, -0.5 + y, 0.0);
+    //glVertex3f(0.5, -0.5, 0.0);
+    //glVertex3f(0.5, 0.5, 0.0);
+    //glVertex3f(-0.5, 0.5, 0.0);
+
+    //glFlush();
+
+    glColor3f(1.0, 1.0, 0.0);
+    glBegin(GL_POLYGON);
+    
+
+    //glVertex3f(0.25 + -posi, 0.5 + -posi, 0.0);
+    //glVertex3f(0.8 + -posi, 0.5 + -posi, 0.0);
+    //glVertex3f(0.8 + -posi, 0.9 + -posi, 0.0);
+    //glVertex3f(0.5 + -posi, 0.3 + -posi, 0.0);
+
+
+    glColor3f(0.0, 0.4, 0.2);
+    glRecti(50, 100, 500, 300);
+
+    glBegin(GL_QUADS);
+    glColor3ub(255, 0, 0);
+    glVertex2f(-0.4, 0.3);
+    glVertex2f(-0.1, 0.3);
+    glVertex2f(-0.1, 0.1);
+    glVertex2f(-0.4, 0.1);
+    glVertex2f(-0.4, 0.3);
+
+
+    
+
+
+
+    glEnd();
+
+
+
+
+
+    glBegin(GL_QUADS);              // Each set of 4 vertices form a quad
+    glColor3f(1.0f, 0.0f, 0.0f); // Red
+    glVertex2f(-0.8f, 0.1f);     // Define vertices in counter-clockwise (CCW) order
+    glVertex2f(-0.2f, 0.1f);     //  so that the normal (front-face) is facing you
+    glVertex2f(-0.2f, 0.7f);
+    glVertex2f(-0.8f, 0.7f);
+
+    glColor3f(0.0f, 1.0f, 0.0f); // Green
+    glVertex2f(-0.7f, -0.6f);
+    glVertex2f(-0.1f, -0.6f);
+    glVertex2f(-0.1f, 0.0f);
+    glVertex2f(-0.7f, 0.0f);
+
+    glColor3f(0.2f, 0.2f, 0.2f); // Dark Gray
+    glVertex2f(-0.9f, -0.7f);
+    glColor3f(1.0f, 1.0f, 1.0f); // White
+    glVertex2f(-0.5f, -0.7f);
+    glColor3f(0.2f, 0.2f, 0.2f); // Dark Gray
+    glVertex2f(-0.5f, -0.3f);
+    glColor3f(1.0f, 1.0f, 1.0f); // White
+    glVertex2f(-0.9f, -0.3f);
+    glEnd();
+
+    glBegin(GL_TRIANGLES);          // Each set of 3 vertices form a triangle
+    glColor3f(0.0f, 0.0f, 1.0f); // Blue
+    glVertex2f(0.1f, -0.6f);
+    glVertex2f(0.7f, -0.6f);
+    glVertex2f(0.4f, -0.1f);
+
+    glColor3f(1.0f, 0.0f, 0.0f); // Red
+    glVertex2f(0.3f, -0.4f);
+    glColor3f(0.0f, 1.0f, 0.0f); // Green
+    glVertex2f(0.9f, -0.4f);
+    glColor3f(0.0f, 0.0f, 1.0f); // Blue
+    glVertex2f(0.6f, -0.9f);
+    glEnd();
+
+    glBegin(GL_POLYGON);            // These vertices form a closed polygon
+    glColor3f(1.0f, 1.0f, 0.0f); // Yellow
+    glVertex2f(0.4f, 0.2f);
+    glVertex2f(0.6f, 0.2f);
+    glVertex2f(0.7f, 0.4f);
+    glVertex2f(0.6f, 0.6f);
+    glVertex2f(0.4f, 0.6f);
+    glVertex2f(0.3f, 0.4f);
+    glEnd();
+
+    glFlush();
+}
+
+void renderObjs() {
+    
+    
+
+    formasGeo();
+    dQuadrado(teste);
+    player(teste);
+    
+    
+
+}
+
+double i = 0;
+void camera() {
+    
+    if (i <= 10000) {
+        glTranslatef(-0.001, 0, 0);
+        //std::cout << i << "\n";
+        i++;
+    }
+
+    
+    
+
+}
+void bGroud() {
+    /*
+    glColor3f(0.0f, 1.0f, 1.0f);
+
+    
+
+    //glTranslatef(x, y, 0.0f);
+
+
+    glBegin(GL_QUADS);
+    
+    glVertex2d(-1, -1);
+    glVertex2d(1, -1);
+    glVertex2d(1, 1);
+    glVertex2d(-1, 1);
+    glRotated(20, 1, 1, 1);
+    */
+}
+
+double t1 = 0;
+double t2 = 0;
+double t3 = 0;
+void tempo() {
+    //camera();
+
+    if (t1 >= 60) {
+        t1 = 0;
+        t2 += 1;
+        std::cout << t2 << " * 60 = ticks \n";
+        
+        
+    }
+    if(t2 >= 60){
+        t2 = 0;
+        t3 += 1;
+        
+    }
+    t1 += 1;
+
+    
+}
+
+void fisics() {
+    dQvx = seg.gravPX(dQx, dQvx, x);
+    dQvy = seg.gravPY(dQy, dQvy, y);
+
+    dQx += dQvx;
+    dQy += dQvy;
+
+    //std::cout << dQx << "\n";
+}
+void tick() {
+
+    fisics();
+    tempo();
+    move();
+}
+void render() {
+    bGroud();
+    renderObjs();
+    
+}
+
+
+//Gamming loop!
+
+double begin = clock();
+double lag = 0.0;
+void gameLoop() {
+
+
+    double MS_PER_UPDATE = 16.67;
+    double now = clock();
+    double elapsed = now - begin;
+    begin = now;
+    lag += elapsed;
+
+    while (lag >= MS_PER_UPDATE) {
+        tick();
+        lag -= MS_PER_UPDATE;
+    }
+    render();
+}
+
+
+
+
+double cronometro = 0;
+int main(void)
+{
+
+    GLFWwindow* window;
+
+    /* Initialize the library */
+    if (!glfwInit())
+        return -1;
+
+    /* Create a windowed mode window and its OpenGL context */
+    window = glfwCreateWindow(1280, 720, "Hello World", NULL, NULL);
+    if (!window)
+    {
+        glfwTerminate();
+        return -1;
+    }
+
+    /* Make the window's context current */
+    glfwMakeContextCurrent(window);
+    int frames = 0;
+    /* Loop until the user closes the window */
+    while (!glfwWindowShouldClose(window))
+    {
+        //camera();
+        
+        //double MS_PER_UPDATE = 16.67;
+        //double now = clock();
+        //double elapsed = now - begin;
+        //begin = now;
+        //lag += elapsed;
+        //processInput
+        
+
+        //double current = getCurrentTime();
+        //double elapsed = current - previous;
+
+        //tick
+
+        
+
+        //render
+        frames += 1;
+        //std::cout << frames << "\n";
+        
+
+        /* Render here */
+        glClear(GL_COLOR_BUFFER_BIT);
+        glClearColor(0.5, 0.5, 1.0, 1.0);
+        //glTranslatef(0.4, 0.4, 0);
+        
+        /*
+        while (lag >= MS_PER_UPDATE)
+        {
+            tick();
+            lag -= MS_PER_UPDATE;
+
+            cronometro += 1;
+            std::cout << cronometro;
+        }
+        
+        cronometro = 0;
+        
+        render();
+        */
+        //
+        gameLoop();
+        /* Swap front and back buffers */
+        glfwSwapBuffers(window);
+        
+
+        /* Poll for and process events */
+        glfwPollEvents();
+
+        if (glfwWindowShouldClose(window))
+            std::cout <<"Tempo ativo: " << t3 << " Minutos e " << t2 << " Segundos\n";
+    }
+
+    
+    glfwTerminate();
+
+    
+    return 0;
+}
+
+
+

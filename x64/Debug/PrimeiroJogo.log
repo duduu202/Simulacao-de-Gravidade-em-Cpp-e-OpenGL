@@ -1,0 +1,24 @@
+﻿  DetectarColisao.cpp
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\DetectarColisao.cpp(53,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\DetectarColisao.cpp(54,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\DetectarColisao.cpp(69,33): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  Mouse.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': redefinição de macro
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\include\GLFW\glfw3.h(123): message : consulte a definição anterior de 'APIENTRY'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(88,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(89,34): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(118,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Mouse.cpp(119,18): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+  Shader2D.cpp
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Estruturas.h(5,40): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(39,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(40,26): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(144,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(165,1): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(288,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(289,30): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Eduardo\source\repos\PrimeiroJogo\PrimeiroJogo\Shader2D.cpp(294,31): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  Gerando Código...
+  PrimeiroJogo.vcxproj -> C:\Users\Eduardo\source\repos\PrimeiroJogo\x64\Debug\PrimeiroJogo.exe
